@@ -1,0 +1,36 @@
+.categoryCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #101828;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.cardName {
+  margin: 10px 0 15px;
+  font-weight: 600;
+  text-align: center;
+}

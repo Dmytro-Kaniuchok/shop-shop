@@ -1,16 +1,29 @@
-import { Link } from "react-router-dom";
+import Categories from "../Categories/Categories.jsx";
+import Container from "../Container/Container";
 import css from "./Hero.module.css";
 
 export default function Hero() {
   return (
-    <section className={css.container}>
-      <h2 className={css.heroTitle}>Продукти з усього світу</h2>
-      <p className={css.heroDescr}>
-        Якісний асортимент разноманітних продуктів
-      </p>
-      <Link to="/catalog" className={css.linkBtn}>
-        Перейти до каталогу
-      </Link>
+    <section className={css.hero}>
+      <Container>
+        <div className={css.inner}>
+          <div className={css.text}>
+            <h1>
+              Продукти
+              <br />з усього світу
+            </h1>
+            <p>Якісний всортимент екзотичних продуктів</p>
+            <a href="/catalog" className={css.btn}>
+              Перейти до каталогу
+            </a>
+          </div>
+
+          <div className={css.imageWrap}>
+            <img src="/images/heroImg.png" alt="картинка" />
+          </div>
+        </div>
+        <Categories />
+      </Container>
     </section>
   );
 }
