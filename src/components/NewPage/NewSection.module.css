@@ -39,7 +39,8 @@
 .card {
   position: relative;
   background: #fff;
-  border-radius: 14px;
+  border: 1px solid #f2f4f7;
+  border-radius: 12px;
   padding-bottom: 18px;
   text-align: center;
   transition: 0.2s ease;
