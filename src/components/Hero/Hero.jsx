@@ -1,5 +1,6 @@
 import Categories from "../Categories/Categories.jsx";
 import Container from "../Container/Container";
+import NewSection from "../NewPage/NewSection.jsx";
 import css from "./Hero.module.css";
 
 export default function Hero() {
@@ -23,6 +24,7 @@ export default function Hero() {
           </div>
         </div>
         <Categories />
+        <NewSection />
       </Container>
     </section>
   );

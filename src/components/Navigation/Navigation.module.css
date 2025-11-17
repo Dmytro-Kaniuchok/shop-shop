@@ -8,8 +8,13 @@
   font-size: 16px;
   text-decoration: none;
   font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #27ae60;
 }
 
 .isActive {
-  color: #3cb371;
+  color: #27ae60;
 }

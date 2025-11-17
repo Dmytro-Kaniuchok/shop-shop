@@ -1,10 +1,30 @@
 import css from "./Categories.module.css";
 
 const categories = [
-  { id: 1, name: "Кава", link: "/catalog/coffee" },
-  { id: 2, name: "Напої", link: "/catalog/drinks" },
-  { id: 3, name: "Цукерки", link: "/catalog/candies" },
-  { id: 4, name: "Снеки", link: "/catalog/snacks" },
+  {
+    id: 1,
+    name: "Кава",
+    link: "/catalog/coffee",
+    image: "/images/products/coffee1.jpg",
+  },
+  {
+    id: 2,
+    name: "Напої",
+    link: "/catalog/drinks",
+    image: "/images/products/drinks.jpg",
+  },
+  {
+    id: 3,
+    name: "Цукерки",
+    link: "/catalog/candies",
+    image: "/images/products/candies.jpg",
+  },
+  {
+    id: 4,
+    name: "Снеки",
+    link: "/catalog/snacks",
+    image: "/images/products/snacks.jpg",
+  },
 ];
 
 export default function Categories() {
